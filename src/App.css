@@ -1,0 +1,51 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+.text-area-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.text-area{
+  margin-right: 10px;
+}
+textarea {
+  width: 600px;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.json-tree {
+  width: 600px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.output-container, .json-tree-container {
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
